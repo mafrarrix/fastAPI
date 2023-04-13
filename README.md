@@ -1,4 +1,4 @@
-# zero_fastAPI
+# fastAPI
 
 ## Python project example testing the posterity of FastAPI library
 
