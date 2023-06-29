@@ -5,5 +5,5 @@
 - Implementation of Restful methods
 - Autentication
 ----------
-### This project uses the FastAPI library to implement calls Rest and leans on Uvicorn for to build a microservice.
+#### This project uses the FastAPI library to implement calls Rest and leans on Uvicorn for to build a microservice.
 
