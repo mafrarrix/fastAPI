@@ -1,2 +1,75 @@
-venv/
 *.pyc
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+develop-eggs/
+.eggs/
+*.egg-info/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+pytestdebug.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm / VSCode / VSCodium
+.idea/
+.vscode/
+.vscode-test/
+
+# mypy, pyright
+.mypy_cache/
+.pyright/
+
+# Pylint
+pylint-report.txt
+pylint-global-report.txt
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask
+instance/
+*.log
+
+# Sphinx
+docs/_build/
+
+# Environments variables
+.env
+.env.*
+*.env
+
+# Miscellaneous
+*.DS_Store
+*.swp
+Thumbs.db
