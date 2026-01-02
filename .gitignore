@@ -41,7 +41,7 @@ pytestdebug.log
 
 # PyCharm / VSCode / VSCodium
 .idea/
-#.vscode/
+.vscode/
 .vscode-test/
 
 # mypy, pyright
