@@ -10,16 +10,16 @@
       "request": "launch",
       "program": "${file}",
       "console": "integratedTerminal",
-      //"python": "${workspaceFolder}/.venv/bin/python"
-      "python": "${workspaceFolder}\\.venv\\Scripts\\python"
+      "python": "${workspaceFolder}/.venv/bin/python"
+      //"python": "${workspaceFolder}\\.venv\\Scripts\\python"
     },
     {
       "name": "uvicorn",
       "type": "debugpy",
       "request": "launch",
       "console": "integratedTerminal",
-      //"python": "${workspaceFolder}/.venv/bin/python",
-      "python": "${workspaceFolder}\\.venv\\Scripts\\python",
+      "python": "${workspaceFolder}/.venv/bin/python",
+      //"python": "${workspaceFolder}\\.venv\\Scripts\\python",
       "module": "uvicorn",
       "args": ["fastAPI.main:app", "--reload"]
     }
