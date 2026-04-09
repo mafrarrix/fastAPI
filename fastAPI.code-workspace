@@ -21,8 +21,21 @@
       "**/.exchange_modules_tmp": true,
       ".mule": true,
     },
-
-    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python",
+   
+    "python.defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
     "python.languageServer": "Pylance",
+    "python.analysis.autoSearchPaths": true,
+    "python.analysis.extraPaths": [
+      "${workspaceFolder}"
+    ],
+    "python.analysis.diagnosticMode": "workspace",
+    "pylint.path": [
+      "${workspaceFolder}.\\.venv\\lib"
+    ],
+    "pylint.args": [
+      "--init-hook",
+      "import sys; sys.path.insert(0, '.')"
+    ],
+    "python.terminal.activateEnvironment": true,
   },
 }
