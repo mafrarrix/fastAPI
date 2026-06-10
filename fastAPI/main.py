@@ -7,6 +7,3 @@ app = FastAPI()
 async def index():
     return{"real": "python",
            "saluto": "hello world"} 
-    
-    
-
